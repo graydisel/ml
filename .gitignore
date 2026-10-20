@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and temporary files
+.cache/
+.cache.sqlite
+*.sqlite
+*.sqlite3
+*.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables, credentials, and secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+google-key.json
+firebase-admin-key.json
+
+# Distribution / packaging / build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Data files, raw dumps, and generated datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+aisdk-2025-03-01.csv
+daily_reports.xlsx
+kamsarmax_reports.csv
+processed_noon_dataset.csv
+unified_maritime_dataset.csv
+
+# Machine learning models, binaries, and checkpoints
+*.onnx
+fuel_model.onnx
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.bin
+*.weights
+*.model
+
+# Logs
+*.log
+
+# Editor and OS-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
